@@ -18,6 +18,9 @@ const server = new ApolloServer({
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/"))
+})
 
 // if we're in production, serve client/build as static assets
 if (process.env.NODE_ENV === "production") {
