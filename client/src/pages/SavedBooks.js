@@ -42,8 +42,6 @@ const SavedBooks = () => {
     return <h2>LOADING...</h2>;
   }
 
-
-  console.table(userData.savedBooks)
   return (
     <>
       <Jumbotron fluid className='text-light bg-dark'>

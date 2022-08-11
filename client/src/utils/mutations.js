@@ -48,7 +48,7 @@ mutation removeBook($bookId: ID!) {
         _id
         username
         email
-        savedBook {
+        savedBooks {
             bookId
             authors
             image
