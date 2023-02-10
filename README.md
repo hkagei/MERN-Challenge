@@ -12,7 +12,8 @@ To build this app, I used a Google Books API to create a GraphQL API with Apollo
 * React.js
 * GraphQL
 * MongoDB
-* 
+* Mongoose
+* Heroku
 
 ## Preview
 ![Preview](https://i.imgur.com/G9K1QbY.png)
