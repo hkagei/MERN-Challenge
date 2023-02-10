@@ -13,3 +13,9 @@ To build this app, I used a Google Books API to create a GraphQL API with Apollo
 * GraphQL
 * MongoDB
 * 
+
+## Preview
+![Preview](https://i.imgur.com/G9K1QbY.png)
+
+## Heroku Deployment
+https://lit-taiga-11377.herokuapp.com/
